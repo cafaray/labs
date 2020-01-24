@@ -94,4 +94,5 @@ object HelloWorld extends App {
     case Cons(h, t) => h + sum(t)
     case _ => 101
   }
+  println("The value is: ", x)
 }
